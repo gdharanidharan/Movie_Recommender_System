@@ -34,9 +34,8 @@ def getRecommendedMoviesAsperUserSimilarity(userId):
 def home():
     return render_template('home.html')
 
-@app.route('/Predict', methods =["GET", "POST"])
+@app.route('/Predict', methods =["POST"])
 def UserLogin():
-    if request.method == "POST":
         userId = request.form.get('userId')
         userId = int(userId)
         recommend_movies = getRecommendedMoviesAsperUserSimilarity(userId)
@@ -48,4 +47,4 @@ def UserLogin():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
