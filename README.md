@@ -1,9 +1,8 @@
 # Movies Recommender System
     Recommender systems are one of the most successful and widespread application of machine learning technologies in business. 
     
-    
-# App
-    Applink : https://movrecsyst.herokuapp.com/
+# Heroku App
+    Applink : https://mov-rec-syst.herokuapp.com/
 
 # Problem Statement
 
@@ -60,7 +59,7 @@
                        
     GUI :              Flask App
     
-    Deploy :           Heroku
+    Cloud :            Heroku
 
 # Python libraries
     1. Pandas
