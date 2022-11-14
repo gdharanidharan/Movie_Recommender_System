@@ -1,5 +1,6 @@
 # Movies Recommender System
-    Recommender systems are one of the most successful and widespread application of machine learning technologies in business. 
+    Recommender systems are one of the most successful and widespread application of machine 
+    learning technologies in business. 
     
 # Heroku App
     Applink : https://mov-rec-syst.herokuapp.com/
@@ -8,11 +9,10 @@
 
     Identify movies that customers want to watch, as demonstrated by their post - viewing rating
     Identify a list of movie recommendations, which contains at least one that theuser 
-      will start watching as their next selection
+    will start watching as their next selection
 
 # Dataset : Movielens
     https://grouplens.org/datasets/movielens/100k
-
 
 # Repository Structure
 
@@ -43,7 +43,6 @@
     Collaborative Filtering:   These systems are widely used, and they try to predict the rating or preference that a 
                                user would give an item-based on past ratings and preferences of other users. 
                                Collaborative filters do not require item metadata like its content-based counterparts
-
 
 # Approach
 
